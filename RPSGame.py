@@ -18,7 +18,7 @@ computer = choices[randint(0, 2)]
 # show the computer's choice in the terminal window
 #print("Computer chooses: ", computer)
 
-                           
+						   
 
 while player is False:
 	print("choose your weapon!")
@@ -28,7 +28,7 @@ while player is False:
 	# check to see if you picked the same thing
 	if (player == computer):
 		print("Tie! Live to shoot another day")
-		print("You life:", PlayerLife, "Com. life:", ComputerLife, )
+		print("You life:", PlayerLife, "Com. life:", ComputerLife)
 
 	elif player == "Rock":
 		if computer == "Paper":
@@ -75,13 +75,14 @@ while player is False:
 
 	if PlayerLife > 0 and ComputerLife > 0:
 
-	 	player = False
-	 	computer = choices[randint(0, 2)]
+		player = False
+		computer = choices[randint(0, 2)]
 
-       
+	   
 	else:
 		if PlayerLife == 0:
 			print("gameover, contiune?")
 		else:
+			ComputerLife == 0
 			print("congratulation! contiune?")
-				
+	
