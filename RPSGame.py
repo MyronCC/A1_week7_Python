@@ -16,7 +16,7 @@ player = False
 computer = choices[randint(0, 2)]
 
 # show the computer's choice in the terminal window
-#print("Computer chooses: ", computer)
+# print("Computer chooses: ", computer)
 
 						   
 
