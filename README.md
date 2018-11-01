@@ -14,7 +14,9 @@ The rules are the same as the classic game:
 
 Choose your weapon wisely!
 
-The computer chooses first; just follow the prompts. 
+The computer's choice is hidden. 
+
+Each player and computer have 3 life in the beginning, when one's life reach 0, the game will end.
 
 Built with Python 3
 
